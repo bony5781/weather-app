@@ -9,7 +9,7 @@ function App() {
   return (
     <React.Fragment>
       <Routes>
-        <Route path="/weather-app" element={<Search />} />
+        <Route path="/" element={<Search />} />
         <Route path="/weather-app/result" element={<Result />} />
       </Routes>
     </React.Fragment>
