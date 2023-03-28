@@ -1,0 +1,111 @@
+.container-extreme-hot {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    height: 36rem;
+    width: 35rem;
+    margin-top: 30px !important;
+    background-color: rgba(253, 40, 25, 0.973);
+    border-radius: 20px;
+    border: 1px solid black;
+    font-weight: 600;
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px); 
+}
+
+.container-hot {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    height: 36rem;
+    width: 35rem;
+    margin-top: 30px !important;
+    background-color: rgba(247, 163, 115, 0.479);
+    border-radius: 20px;
+    border: 1px solid black;
+    font-weight: 600;
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px); 
+}
+
+.container-good {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    height: 36rem;
+    width: 35rem;
+    margin-top: 30px !important;
+    background-color: rgba(245, 242, 101, 0.479);
+    border-radius: 20px;
+    border: 1px solid black;
+    font-weight: 600;
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px); 
+}
+
+.container-cold {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    height: 36rem;
+    width: 35rem;
+    margin-top: 30px !important;
+    background-color: rgba(255, 255, 255, 0.486);
+    border-radius: 20px;
+    border: 1px solid black;
+    font-weight: 600;
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px); 
+}
+
+h1 {
+    font-size: 70px;
+    font-weight: 600;
+}
+
+h2 {
+    font-size: 40px;
+    font-weight: 600;
+}
+
+h3 {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+h5 {
+    font-size: 22px;
+    font-weight: 600;
+}
+
+button {
+    font-size: 20px;
+    height: 80px;
+    width: 150px;
+    background-color: #a7c957;
+    border-radius: 10px;
+    margin: auto; 
+}
+
+@media only screen and (max-width: 600px) {
+    .container{         
+        height: 36rem;
+        width: 20rem;
+    }
+    .container-extreme-hot{
+        height: 50rem;
+        width: 20rem;
+    } 
+    .container-hot{
+        height: 50rem;
+        width: 20rem;
+    }  
+    .container-good{
+        height: 50rem;
+        width: 20rem;
+    }  
+    .container-cold{
+        height: 50rem;
+        width: 20rem;
+    }     
+}
